@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Practica8_Digimind"
+rootProject.name = "MyDigimind"

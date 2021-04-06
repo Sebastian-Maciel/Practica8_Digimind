@@ -1,4 +1,4 @@
-package garciamaciel.sebastian.practica8_digimind
+package garciamaciel.sebastian.mydigimind
 
 import org.junit.Test
 
