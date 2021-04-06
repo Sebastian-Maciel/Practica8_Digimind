@@ -3,4 +3,17 @@
     <string name="title_home">My Board</string>
     <string name="title_dashboard">New Reminder</string>
     <string name="title_notifications">Notifications</string>
+    <string name="what_do_you_want_to_remember_to_do">What do you want to remember to do?</string>
+    <string name="take_my_pill">Take me pill</string>
+    <string name="set_time">Set time</string>
+    <string name="when_do_you_want_to_do_it">When do you whant to do it?</string>
+    <string name="at_what_time">At what time</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
 </resources>
