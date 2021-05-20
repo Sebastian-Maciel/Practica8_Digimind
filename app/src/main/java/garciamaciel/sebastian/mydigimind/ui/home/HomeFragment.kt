@@ -23,8 +23,10 @@ class HomeFragment : Fragment() {
     private var adaptador: AdaptadorTareas? = null
     private lateinit var homeViewModel: HomeViewModel
 
+
     private lateinit var storage: FirebaseFirestore
     private lateinit var usuario: FirebaseAuth
+
 
     companion object {
         var tasks = ArrayList<Task>()
@@ -39,14 +41,19 @@ class HomeFragment : Fragment() {
         homeViewModel =
             ViewModelProvider(this).get(HomeViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_home, container, false)
+
         tasks = ArrayList()
         storage = FirebaseFirestore.getInstance()
         usuario = FirebaseAuth.getInstance()
+        fillTask()
+        if (!tasks.isEmpty()){
+            var gridView: GridView = root.findViewById(R.id.gridView)
+        }
 
-        if (first) {
+        /*if (first) {
             fillTask()
             first = false
-        }
+        }*/
 
 
         adaptador = AdaptadorTareas(root.context, tasks)

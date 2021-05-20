@@ -96,7 +96,7 @@ class DashboardFragment : Fragment() {
                 .addOnFailureListener {
                     Toast.makeText(
                         root.context,
-                        "Error: Porfavor intente de nuevo.",
+                        it.toString(),
                         Toast.LENGTH_SHORT
                     ).show()
                 }
